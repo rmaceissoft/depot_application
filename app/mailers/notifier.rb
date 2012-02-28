@@ -22,4 +22,10 @@ class Notifier < ActionMailer::Base
 
     mail :to => order.email, :subject => 'Pragmatic Store Order Shipped'
   end
+  
+  
+  def error_occured(error)
+    @error = error
+    mail :to => "abc@xmail.com", :subject => 'Depot App Error Incident'  ## replace your email id to receive mails
+  end  
 end
