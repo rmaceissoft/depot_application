@@ -30,6 +30,7 @@ class OrdersController < ApplicationController
 		return
 	end  	
     @order = Order.new
+    @hide_checkout_button = true
 
     respond_to do |format|
       format.html # new.html.erb
