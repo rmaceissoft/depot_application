@@ -11,6 +11,9 @@
 
 
 <body id="store" >
+  <div id="user_nav">
+  	<%= link_to "Sign up", new_user_path %>
+  </div>
   <div id="banner" >
 	 <%= image_tag("logo.png") %>
 	 <%= @page_title || "Pragmatic Bookshelf" %>

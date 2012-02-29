@@ -13,4 +13,6 @@ Demo::Application.configure do
 		:address => "localhost",
 		:port => 25,
 	}	
+	
+	config.gem "authlogic"
 end

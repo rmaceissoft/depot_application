@@ -38,3 +38,10 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 gem 'will_paginate', '>= 3.0.pre'
+
+gem 'authlogic'
+
+# A collection of useful Rails generator scripts for scaffolding, layout files, authentication, and more.
+gem 'nifty-generators'
+
+gem "mocha", :group => :test
