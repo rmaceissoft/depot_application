@@ -45,3 +45,5 @@ gem 'authlogic'
 gem 'nifty-generators'
 
 gem "mocha", :group => :test
+
+gem "dynamic_form"

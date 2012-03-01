@@ -1,4 +1,11 @@
 Demo::Application.routes.draw do
+  
+  match 'login' => "user_session#new",      :as => :login
+  match 'logout' => "user_session#destroy", :as => :logout
+
+  resources :user_session
+  
+
   resources :users
 
   resources :orders
