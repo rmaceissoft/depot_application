@@ -1,4 +1,8 @@
 class OrdersController < ApplicationController
+
+	
+  before_filter :require_user
+  
   # GET /orders
   # GET /orders.json
   def index
