@@ -46,4 +46,8 @@ gem 'nifty-generators'
 
 gem "mocha", :group => :test
 
+# include the helper f.error_messages in order to render form error easily
 gem "dynamic_form"
+
+# rails admin (similar to django admin)
+gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'

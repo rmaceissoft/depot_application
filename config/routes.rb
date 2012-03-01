@@ -1,5 +1,7 @@
 Demo::Application.routes.draw do
   
+  mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
+	
   match 'login' => "user_session#new",      :as => :login
   match 'logout' => "user_session#destroy", :as => :logout
 
